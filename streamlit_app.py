@@ -10,7 +10,7 @@ from model import Generator
 # --- Configuration ---
 LATENT_DIM = 100  # Should match the latent dimension of your trained model
 OUTPUT_DIM = 28 * 28  # Assuming 28x28 pixel grayscale images
-MODEL_PATH = "generator_model.pth"
+MODEL_PATH = "generator.pth"
 
 # --- Load Model ---
 @st.cache_resource
